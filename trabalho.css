@@ -14,3 +14,27 @@ body {
     max-width: 600px !important;
     text-align: center;
 }
+
+/* Dropdown menu styles */
+#menuDropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: auto;
+    min-width: 150px;
+    z-index: 1050;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
