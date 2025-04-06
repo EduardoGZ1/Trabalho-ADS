@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding-bottom: 80px;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
     text-align: center;
 }
 
-/* Dropdown menu styles */
+
 #menuDropdown {
     position: absolute;
     top: 100%;
@@ -28,7 +29,7 @@ body {
     background-color: #ffffff;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #f8f9fa;
     padding: 1rem;
