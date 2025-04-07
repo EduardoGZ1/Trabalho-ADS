@@ -6,7 +6,7 @@ document.getElementById('loadBreeds').addEventListener('click', () => {
         .then(response => response.json())
         .then(breeds => {
             breeds.forEach(breed => {
-                const breedInfo = `${breed.name}, ${breed.temperament || ''}, ${breed.origin || ''}, ${breed.life_span || ''}, ${breed.weight.metric || ''}, ${breed.height.metric || ''}`;
+                const breedInfo = `Nome: ${breed.name} | Temperamento: ${breed.temperament || ''} | Origem: ${breed.origin || ''} | Tempo de vida: ${breed.life_span || ''} | Peso: ${breed.weight.metric || ''} | Altura: ${breed.height.metric || ''}`;
                 breedsContainer.innerHTML += breedInfo + '<br><br>';
             });
         });

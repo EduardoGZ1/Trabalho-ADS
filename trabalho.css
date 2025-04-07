@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .container {
@@ -16,6 +16,12 @@ body {
     text-align: center;
 }
 
+#imagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 #menuDropdown {
     position: absolute;
